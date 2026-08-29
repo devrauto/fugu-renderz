@@ -1,11 +1,8 @@
 {
   "mcpServers": {
     "fugu-fcmobile": {
-      "command": "/Applications/AutoClaw.app/Contents/Resources/node/node",
-      "args": [
-        "/Users/a1234/Desktop/fugu-renderz/scripts/mcp-server.js"
-      ]
+      "command": "node",
+      "args": ["scripts/mcp-server.js"]
     }
   }
 }
-
