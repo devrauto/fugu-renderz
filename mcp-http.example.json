@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "fugu-fcmobile": {
+      "type": "http",
+      "url": "https://TU-TUNEL.example/mcp",
+      "headers": {
+        "Authorization": "Bearer ${FUGU_MCP_TOKEN}"
+      }
+    }
+  }
+}

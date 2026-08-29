@@ -1,0 +1,10 @@
+---
+description: En Grok Bot y en este repo, Fugu se opera con el CLI local. Nunca inventar cartas.
+alwaysApply: true
+---
+
+Si el entorno es Grok Bot o `/workspace/fugu-renderz` existe, no uses MCP.
+Ejecuta `sh scripts/install-on-bot.sh` si no está listo, y después
+`scripts/fugu` para search/player/simulate/analyze/club/screenshot.
+No inventes renderzId, OVR ni XI. Cartas de club: `--auctionable false`.
+El club vive en `data/club.json`.

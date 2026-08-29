@@ -1,0 +1,25 @@
+{
+  "name": "fugu-renderz",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Sesión persistente y autorización manual para RenderZ",
+  "scripts": {
+    "browser:authorize": "node scripts/authorize.js",
+    "browser:test-session": "node scripts/test-session.js",
+    "api:start": "node scripts/api-server.js",
+    "mcp:start": "node scripts/mcp-server.js",
+    "mcp:http": "node scripts/mcp-server.js --http",
+    "fugu": "node scripts/fugu.js",
+    "bot:install": "sh scripts/install-on-bot.sh",
+    "test:mcp-http": "node scripts/test-mcp-http.js",
+    "test:squad": "node scripts/test-squad.js",
+    "test:screenshot": "node scripts/test-screenshot.js",
+    "test:model": "node scripts/validate-model.js",
+    "test:random": "node scripts/validate-random.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {}
+}

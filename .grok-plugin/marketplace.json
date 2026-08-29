@@ -1,0 +1,11 @@
+{
+  "name": "fugu-renderz",
+  "description": "Plugins locales de análisis FC Mobile / RenderZ.",
+  "plugins": [
+    {
+      "name": "fugu-fcmobile",
+      "description": "MCP y skill para buscar cartas, simular builds, analizar plantillas y recomendar fichajes.",
+      "source": { "type": "local", "path": "." }
+    }
+  ]
+}
