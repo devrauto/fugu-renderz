@@ -1,6 +1,6 @@
 {
   "name": "fugu-fcmobile",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Análisis de plantillas FC Mobile contra el catálogo vivo de RenderZ: buscar cartas, simular builds, analizar XI y recomendar fichajes.",
   "author": {
     "name": "fugu-renderz"

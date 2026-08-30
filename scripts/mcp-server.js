@@ -8,14 +8,16 @@ import { engineDependencies, getBasePlayer, importRenderzSquad, loadPositionModi
 import { parseSkills, simulatePlayer } from "./renderz-model.js";
 import { analyzeSquad, autoRecommendChanges, recommendChanges, resolveScreenshotSquad, scoringModel, uidResolution } from "./squad-analysis.js";
 import { analyzeClub, loadClub, resolveOwnedCard, saveClub, upsertClubPlayers } from "./club-roster.js";
+import { renderLineupPitch } from "./pitch-diagram.js";
 
-const SERVER = { name: "fugu-fcmobile", title: "Fugu FC Mobile (RenderZ)", version: "2.1.0" };
+const SERVER = { name: "fugu-fcmobile", title: "Fugu FC Mobile (RenderZ)", version: "2.2.0" };
 const SUPPORTED_PROTOCOLS = ["2025-06-18", "2025-03-26", "2024-11-05"];
 const INSTRUCTIONS = [
   "Servidor autónomo de análisis FC Mobile sobre el catálogo vivo de RenderZ; no necesita la API HTTP local.",
   "Flujo de mercado: search_players (cursor para paginar) → simulate_player o get_player → analyze_squad → recommend_changes / auto_recommend_changes.",
   "Flujo de captura: inspect_squad_screenshot acepta imageBase64 (preferido en Grok Bot y conectores remotos) o imagePath local; transcribe sólo lo visible y pásalo a analyze_squad_screenshot, que valida contra RenderZ y responde needs_clarification ante ambigüedad.",
-  "Un UID de FC Mobile no expone la plantilla: resolve_fcm_uid explica el flujo de verificación y nunca se inventan jugadores."
+  "Un UID de FC Mobile no expone la plantilla: resolve_fcm_uid explica el flujo de verificación y nunca se inventan jugadores.",
+  "Al montar un XI llama render_lineup_pitch con formation + players (name y slot reales). Devuelve PNG del campo con coordenadas del Squadbuilder de RenderZ; no inventes cartas ni dibujes el once de memoria."
 ].join(" ");
 const MCP_PATHS = new Set(["/", "/mcp", "/.well-known/mcp/server-card.json"]);
 
@@ -183,6 +185,25 @@ const tools = [
       }, required: ["slot", "name", "displayedOvr", "training"], additionalProperties: false } },
       market: { type: "object" }, recommendations: { type: "boolean" }, limit: { type: "integer", minimum: 1, maximum: 50 }
     }, required: ["mode", "observations"], additionalProperties: false }
+  },
+  {
+    name: "render_lineup_pitch",
+    title: "Dibujar XI en el campo",
+    annotations: { ...localOnly, title: "Dibujar XI en el campo" },
+    description: "Pinta un XI sobre un campo con las coordenadas oficiales del Squadbuilder de RenderZ. Requiere name y slot ya observados; no busca ni inventa cartas. Escribe un PNG y también lo adjunta como imagen.",
+    inputSchema: { type: "object", properties: {
+      formation: { type: "string", description: "Nombre RenderZ, por ejemplo 4-3-3 HOLDING o 4-2-3-1 WIDE." },
+      title: { type: "string" },
+      out: { type: "string", description: "Ruta del PNG. Por defecto .cache/lineup.png." },
+      base64: { type: "boolean" },
+      notes: { type: "array", items: { type: "string" } },
+      bench: { type: "array" },
+      players: { type: "array", minItems: 1, maxItems: 11, items: { type: "object", properties: {
+        name: { type: "string", minLength: 1 }, slot: { type: "string", minLength: 1 },
+        displayedOvr: { type: "integer" }, ovr: { type: "integer" },
+        highlight: { type: "string", enum: ["in", "out", "swap"] }
+      }, required: ["name", "slot"], additionalProperties: false } }
+    }, required: ["players"], additionalProperties: false }
   }
 ];
 
@@ -263,7 +284,16 @@ const handlers = {
     };
   },
   get_club: () => loadClub(),
-  analyze_club: async args => analyzeClub(await loadClub(), await engine(), { mode: args.mode || "h2h" })
+  analyze_club: async args => analyzeClub(await loadClub(), await engine(), { mode: args.mode || "h2h" }),
+  render_lineup_pitch: async args => {
+    const result = await renderLineupPitch(args);
+    const structured = {
+      formation: result.formation, formationMatch: result.formationMatch, title: result.title,
+      players: result.players, ascii: result.ascii, pngPath: result.pngPath, bytes: result.bytes
+    };
+    if (args.base64 === true) structured.imageBase64 = result.png.toString("base64");
+    return { __mcpImage: { data: result.png.toString("base64"), mimeType: "image/png" }, structured };
+  }
 };
 
 function rpc(id, payload) {

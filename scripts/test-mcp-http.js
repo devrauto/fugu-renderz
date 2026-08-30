@@ -42,6 +42,7 @@ assert.equal(listed.status, 200);
 const names = listed.body.result.tools.map(tool => tool.name);
 assert.equal(names.includes("search_players"), true);
 assert.equal(names.includes("analyze_squad_screenshot"), true);
+assert.equal(names.includes("render_lineup_pitch"), true);
 assert.equal(listed.body.result.tools.find(tool => tool.name === "inspect_squad_screenshot").inputSchema.oneOf, undefined);
 
 const resources = await rpc("resources/list", {}, { id: 3 });

@@ -17,7 +17,8 @@ const COMMANDS = {
   uid: { tool: "resolve_fcm_uid", positional: ["uid"] },
   club: { tool: "get_club" },
   "club-import": { tool: "import_club_cards" },
-  "club-analyze": { tool: "analyze_club" }
+  "club-analyze": { tool: "analyze_club" },
+  pitch: { tool: "render_lineup_pitch" }
 };
 
 const HELP = `Uso: fugu <comando> [argumentos]
@@ -39,6 +40,7 @@ Pensado para la VM de Grok Bot (/workspace/fugu-renderz). JSON por stdout. No in
   club
   club-import --json observations.json
   club-analyze [--mode h2h]
+  pitch --json xi.json [--formation "4-3-3 HOLDING" --out .cache/lineup.png]
   scoring
 
 Flags: --json archivo  fusiona un objeto JSON. Las flags pisan el archivo.

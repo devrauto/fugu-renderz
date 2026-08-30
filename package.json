@@ -16,7 +16,8 @@
     "test:squad": "node scripts/test-squad.js",
     "test:screenshot": "node scripts/test-screenshot.js",
     "test:model": "node scripts/validate-model.js",
-    "test:random": "node scripts/validate-random.js"
+    "test:random": "node scripts/validate-random.js",
+    "test:pitch": "node scripts/test-pitch.js"
   },
   "engines": {
     "node": ">=20"

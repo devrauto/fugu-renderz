@@ -12,3 +12,5 @@ del usuario.
 4. Club persistente: `data/club.json`. Capturas: observaciones JSON →
    `fugu screenshot --json ...`.
 5. Cartas no subastables: `search --auctionable false`.
+6. Al montar un XI: `fugu pitch --json xi.json --formation "4-3-3 HOLDING"`
+   y enseña el PNG (`.cache/lineup.png`). No dibujes el campo de memoria.

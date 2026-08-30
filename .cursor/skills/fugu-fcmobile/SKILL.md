@@ -30,9 +30,14 @@ No inventes cartas, UIDs ni ratings. Toda carta sale de un comando Fugu o de una
 "$FUGU/scripts/fugu" club-import --json /tmp/club.json
 "$FUGU/scripts/fugu" club-analyze --mode h2h
 "$FUGU/scripts/fugu" uid 123456789012345
+"$FUGU/scripts/fugu" pitch --json /tmp/xi.json --formation "4-3-3 HOLDING"
 ```
 
-`analyze`, `screenshot`, `recommend` y `club-import` esperan JSON (archivo `--json` o stdin). El club persistente es `$FUGU/data/club.json`.
+`analyze`, `screenshot`, `recommend`, `club-import` y `pitch` esperan JSON (archivo `--json` o stdin). El club persistente es `$FUGU/data/club.json`.
+
+## Alineación en imagen
+
+Cuando montes o cambies un XI, llama a `pitch` con `formation` (nombre RenderZ) y los 11 `name`+`slot` ya observados. El PNG usa las coordenadas del Squadbuilder. Enseña esa imagen; no dibujes el campo a mano ni inventes cartas. ASCII va en `ascii`. PNG por defecto: `$FUGU/.cache/lineup.png`.
 
 ## Captura
 
