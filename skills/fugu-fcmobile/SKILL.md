@@ -37,7 +37,7 @@ No inventes cartas, UIDs ni ratings. Toda carta sale de un comando Fugu o de una
 
 ## Alineación en imagen
 
-Cuando montes o cambies un XI, llama a `pitch` con `formation` (nombre RenderZ) y los 11 `name`+`slot` ya observados. El PNG usa las coordenadas del Squadbuilder. Enseña esa imagen; no dibujes el campo a mano ni inventes cartas. ASCII va en `ascii`. PNG por defecto: `$FUGU/.cache/lineup.png`.
+Cuando montes o cambies un XI, llama a `pitch` con `formation` del catálogo RenderZ (`data/formations.json`: incluye `4-2-1-3 WIDE`, `4-1-3-2`, `4-4-1-1`, etc.) y los 11 `name`+`slot` ya observados. Si pides `4-2-1-3`, usa `4-2-1-3 WIDE`. No coloques por puestos inventados ni digas que RenderZ no tiene una formación que está en ese JSON. Enseña el PNG; ASCII va en `ascii`. PNG por defecto: `$FUGU/.cache/lineup.png`.
 
 ## Captura
 

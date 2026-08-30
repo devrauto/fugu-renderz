@@ -5,9 +5,12 @@ import path from "node:path";
 import { findFormation, layoutPlayers, listFormations, renderLineupPitch } from "./pitch-diagram.js";
 
 const formations = listFormations();
-assert.equal(formations.length, 29);
+assert.equal(formations.length, 33);
 assert.equal(findFormation("4-3-3 HOLDING")?.name, "4-3-3 HOLDING");
 assert.equal(findFormation("4-2-3-1 ancho")?.name, "4-2-3-1 WIDE");
+assert.equal(findFormation("4-2-1-3")?.name, "4-2-1-3 WIDE");
+assert.equal(findFormation("4-2-1-3 H2H")?.name, "4-2-1-3 WIDE");
+assert.equal(findFormation("4-1-3-2")?.name, "4-1-3-2");
 assert.equal(findFormation("4-3-3")?.name, "4-3-3");
 
 const holding = findFormation("4-3-3 HOLDING");
@@ -43,6 +46,26 @@ assert.ok(vini.x < eusebio.x);
 assert.ok(bale.x > eusebio.x);
 const rodri = placed.find(player => player.name === "Rodri");
 assert.equal(rodri.slot, "CDM");
+
+const wide4213 = layoutPlayers([
+  { name: "Vini", slot: "EI" },
+  { name: "Eusébio", slot: "DC" },
+  { name: "Bale", slot: "ED" },
+  { name: "Charlton", slot: "MCO" },
+  { name: "Rodri", slot: "MCD" },
+  { name: "Gullit", slot: "MCD" }
+], "4-2-1-3 H2H").filter(player => !player.empty);
+assert.equal(wide4213.find(player => player.name === "Charlton")?.slotType, "MID_CAM");
+assert.equal(wide4213.filter(player => player.slot === "CDM").length, 2);
+assert.equal(wide4213.find(player => player.name === "Eusébio")?.y, 0.11);
+
+let unknown = false;
+try {
+  layoutPlayers([{ name: "Vini", slot: "LW" }], "9-9-9");
+} catch (error) {
+  unknown = /4-2-1-3 WIDE/.test(error.message);
+}
+assert.equal(unknown, true);
 
 const out = path.join(os.tmpdir(), `fugu-pitch-${process.pid}.png`);
 const result = await renderLineupPitch({

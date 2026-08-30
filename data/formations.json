@@ -1,18 +1,11 @@
 {
   "source": "https://renderz.app/24/squadbuilder/create",
-  "captured": "2025-08-11",
+  "captured": "2026-07-10",
   "formations": [
     {
       "id": 23,
       "name": "3-4-1-2",
       "positions": [
-        {
-          "id": 133,
-          "name": "GK",
-          "slotType": "DEF_GK",
-          "x": 50,
-          "y": 90
-        },
         {
           "id": 143,
           "name": "ST",
@@ -21,52 +14,17 @@
           "y": 11
         },
         {
-          "id": 142,
-          "name": "ST",
-          "slotType": "ATT_RST",
-          "x": 66,
-          "y": 11
+          "id": 133,
+          "name": "GK",
+          "slotType": "DEF_GK",
+          "x": 50,
+          "y": 90
         },
         {
-          "id": 141,
-          "name": "CAM",
-          "slotType": "MID_CAM",
-          "x": 49,
-          "y": 28
-        },
-        {
-          "id": 140,
-          "name": "LM",
-          "slotType": "MID_LM",
-          "x": 15,
-          "y": 33
-        },
-        {
-          "id": 139,
-          "name": "CM",
-          "slotType": "MID_LCM",
-          "x": 34,
-          "y": 43
-        },
-        {
-          "id": 138,
-          "name": "CM",
-          "slotType": "MID_RCM",
-          "x": 66,
-          "y": 43
-        },
-        {
-          "id": 137,
-          "name": "RM",
-          "slotType": "MID_RM",
-          "x": 84,
-          "y": 33
-        },
-        {
-          "id": 136,
+          "id": 134,
           "name": "CB",
-          "slotType": "DEF_LCB",
-          "x": 20,
+          "slotType": "DEF_RCB",
+          "x": 79,
           "y": 62
         },
         {
@@ -77,11 +35,53 @@
           "y": 62
         },
         {
-          "id": 134,
+          "id": 136,
           "name": "CB",
-          "slotType": "DEF_RCB",
-          "x": 79,
+          "slotType": "DEF_LCB",
+          "x": 20,
           "y": 62
+        },
+        {
+          "id": 137,
+          "name": "RM",
+          "slotType": "MID_RM",
+          "x": 84,
+          "y": 33
+        },
+        {
+          "id": 138,
+          "name": "CM",
+          "slotType": "MID_RCM",
+          "x": 66,
+          "y": 43
+        },
+        {
+          "id": 139,
+          "name": "CM",
+          "slotType": "MID_LCM",
+          "x": 34,
+          "y": 43
+        },
+        {
+          "id": 140,
+          "name": "LM",
+          "slotType": "MID_LM",
+          "x": 15,
+          "y": 33
+        },
+        {
+          "id": 141,
+          "name": "CAM",
+          "slotType": "MID_CAM",
+          "x": 49,
+          "y": 28
+        },
+        {
+          "id": 142,
+          "name": "ST",
+          "slotType": "ATT_RST",
+          "x": 66,
+          "y": 11
         }
       ]
     },
@@ -94,7 +94,7 @@
           "name": "ST",
           "slotType": "ATT_ST",
           "x": 50,
-          "y": 12
+          "y": 11
         },
         {
           "id": 144,
@@ -107,64 +107,64 @@
           "id": 145,
           "name": "CB",
           "slotType": "DEF_RCB",
-          "x": 79,
-          "y": 62
+          "x": 72,
+          "y": 74
         },
         {
           "id": 146,
           "name": "CB",
           "slotType": "DEF_CB",
           "x": 50,
-          "y": 62
+          "y": 63
         },
         {
           "id": 147,
           "name": "CB",
           "slotType": "DEF_LCB",
-          "x": 20,
-          "y": 62
+          "x": 26,
+          "y": 74
         },
         {
           "id": 148,
           "name": "RM",
           "slotType": "MID_RM",
-          "x": 88,
-          "y": 45
+          "x": 84,
+          "y": 35
         },
         {
           "id": 149,
           "name": "CM",
           "slotType": "MID_RCM",
-          "x": 64,
-          "y": 44
+          "x": 66,
+          "y": 46
         },
         {
           "id": 150,
           "name": "CM",
           "slotType": "MID_LCM",
-          "x": 35,
-          "y": 45
+          "x": 33,
+          "y": 46
         },
         {
           "id": 151,
           "name": "LM",
           "slotType": "MID_LM",
-          "x": 12,
-          "y": 46
+          "x": 16,
+          "y": 35
         },
         {
           "id": 152,
-          "name": "RF",
-          "slotType": "ATT_RF",
-          "x": 74,
-          "y": 20
+          "name": "CAM",
+          "slotType": "MID_RAM",
+          "x": 66,
+          "y": 18
         },
         {
           "id": 153,
-          "name": "LF",
-          "slotType": "ATT_LF",
-          "x": 26,
-          "y": 20
+          "name": "CAM",
+          "slotType": "MID_LAM",
+          "x": 33,
+          "y": 18
         }
       ]
     },
@@ -178,20 +178,6 @@
           "slotType": "DEF_RCB",
           "x": 73,
           "y": 62
-        },
-        {
-          "id": 276,
-          "name": "GK",
-          "slotType": "DEF_GK",
-          "x": 50,
-          "y": 90
-        },
-        {
-          "id": 286,
-          "name": "LW",
-          "slotType": "ATT_LW",
-          "x": 27,
-          "y": 14
         },
         {
           "id": 285,
@@ -229,6 +215,20 @@
           "y": 35
         },
         {
+          "id": 276,
+          "name": "GK",
+          "slotType": "DEF_GK",
+          "x": 50,
+          "y": 90
+        },
+        {
+          "id": 286,
+          "name": "LW",
+          "slotType": "ATT_LW",
+          "x": 27,
+          "y": 14
+        },
+        {
           "id": 280,
           "name": "CDM",
           "slotType": "MID_CDM",
@@ -256,41 +256,6 @@
       "name": "3-4-3 FLAT",
       "positions": [
         {
-          "id": 165,
-          "name": "LW",
-          "slotType": "ATT_LW",
-          "x": 27,
-          "y": 14
-        },
-        {
-          "id": 164,
-          "name": "ST",
-          "slotType": "ATT_ST",
-          "x": 50,
-          "y": 11
-        },
-        {
-          "id": 163,
-          "name": "RW",
-          "slotType": "ATT_RW",
-          "x": 72,
-          "y": 14
-        },
-        {
-          "id": 162,
-          "name": "LM",
-          "slotType": "MID_LM",
-          "x": 16,
-          "y": 36
-        },
-        {
-          "id": 161,
-          "name": "CM",
-          "slotType": "MID_LCM",
-          "x": 38,
-          "y": 37
-        },
-        {
           "id": 160,
           "name": "CM",
           "slotType": "MID_RCM",
@@ -298,17 +263,17 @@
           "y": 37
         },
         {
-          "id": 159,
-          "name": "RM",
-          "slotType": "MID_RM",
-          "x": 84,
-          "y": 36
+          "id": 155,
+          "name": "GK",
+          "slotType": "DEF_GK",
+          "x": 50,
+          "y": 90
         },
         {
-          "id": 158,
+          "id": 156,
           "name": "CB",
-          "slotType": "DEF_LCB",
-          "x": 26,
+          "slotType": "DEF_RCB",
+          "x": 73,
           "y": 62
         },
         {
@@ -319,18 +284,53 @@
           "y": 62
         },
         {
-          "id": 156,
+          "id": 158,
           "name": "CB",
-          "slotType": "DEF_RCB",
-          "x": 73,
+          "slotType": "DEF_LCB",
+          "x": 26,
           "y": 62
         },
         {
-          "id": 155,
-          "name": "GK",
-          "slotType": "DEF_GK",
+          "id": 159,
+          "name": "RM",
+          "slotType": "MID_RM",
+          "x": 84,
+          "y": 36
+        },
+        {
+          "id": 161,
+          "name": "CM",
+          "slotType": "MID_LCM",
+          "x": 38,
+          "y": 37
+        },
+        {
+          "id": 162,
+          "name": "LM",
+          "slotType": "MID_LM",
+          "x": 16,
+          "y": 36
+        },
+        {
+          "id": 163,
+          "name": "RW",
+          "slotType": "ATT_RW",
+          "x": 72,
+          "y": 14
+        },
+        {
+          "id": 164,
+          "name": "ST",
+          "slotType": "ATT_ST",
           "x": 50,
-          "y": 90
+          "y": 11
+        },
+        {
+          "id": 165,
+          "name": "LW",
+          "slotType": "ATT_LW",
+          "x": 27,
+          "y": 14
         }
       ]
     },
@@ -339,81 +339,81 @@
       "name": "3-5-1-1",
       "positions": [
         {
-          "id": 298,
-          "name": "GK",
-          "slotType": "DEF_GK",
-          "x": 50,
-          "y": 90
-        },
-        {
-          "id": 308,
+          "id": 297,
           "name": "ST",
           "slotType": "ATT_ST",
           "x": 38,
           "y": 12
         },
         {
-          "id": 307,
+          "id": 296,
           "name": "CF",
           "slotType": "ATT_CF",
           "x": 62,
           "y": 14
         },
         {
-          "id": 306,
+          "id": 295,
           "name": "LM",
           "slotType": "MID_LM",
           "x": 15,
           "y": 33
         },
         {
-          "id": 305,
+          "id": 294,
           "name": "CM",
           "slotType": "MID_CM",
           "x": 50,
           "y": 34
         },
         {
-          "id": 304,
+          "id": 293,
           "name": "RM",
           "slotType": "MID_RM",
           "x": 85,
           "y": 33
         },
         {
-          "id": 303,
+          "id": 292,
           "name": "CDM",
           "slotType": "MID_LDM",
           "x": 35,
           "y": 44
         },
         {
-          "id": 302,
+          "id": 291,
           "name": "CDM",
           "slotType": "MID_RDM",
           "x": 64,
           "y": 44
         },
         {
-          "id": 301,
+          "id": 290,
           "name": "CB",
           "slotType": "DEF_LCB",
           "x": 20,
           "y": 62
         },
         {
-          "id": 300,
+          "id": 289,
           "name": "CB",
           "slotType": "DEF_CB",
           "x": 50,
           "y": 62
         },
         {
-          "id": 299,
+          "id": 288,
           "name": "CB",
           "slotType": "DEF_RCB",
           "x": 79,
           "y": 62
+        },
+        {
+          "id": 287,
+          "name": "GK",
+          "slotType": "DEF_GK",
+          "x": 50,
+          "y": 90
         }
       ]
     },
@@ -512,60 +512,11 @@
           "y": 90
         },
         {
-          "id": 200,
-          "name": "RB",
-          "slotType": "DEF_RB",
-          "x": 89,
-          "y": 73
-        },
-        {
-          "id": 201,
-          "name": "CB",
-          "slotType": "DEF_RCB",
-          "x": 69,
-          "y": 75
-        },
-        {
-          "id": 202,
-          "name": "CB",
-          "slotType": "DEF_LCB",
-          "x": 30,
-          "y": 75
-        },
-        {
-          "id": 203,
-          "name": "LB",
-          "slotType": "DEF_LB",
-          "x": 10,
-          "y": 73
-        },
-        {
-          "id": 204,
-          "name": "CDM",
-          "slotType": "MID_CDM",
-          "x": 50,
-          "y": 58
-        },
-        {
-          "id": 205,
-          "name": "CM",
-          "slotType": "MID_RCM",
-          "x": 71,
-          "y": 44
-        },
-        {
-          "id": 206,
-          "name": "CM",
-          "slotType": "MID_LCM",
-          "x": 28,
-          "y": 44
-        },
-        {
-          "id": 207,
-          "name": "CAM",
-          "slotType": "MID_CAM",
-          "x": 50,
-          "y": 28
+          "id": 209,
+          "name": "ST",
+          "slotType": "ATT_LST",
+          "x": 35,
+          "y": 12
         },
         {
           "id": 208,
@@ -575,11 +526,60 @@
           "y": 12
         },
         {
-          "id": 209,
-          "name": "ST",
-          "slotType": "ATT_LST",
-          "x": 35,
-          "y": 12
+          "id": 207,
+          "name": "CAM",
+          "slotType": "MID_CAM",
+          "x": 50,
+          "y": 28
+        },
+        {
+          "id": 206,
+          "name": "CM",
+          "slotType": "MID_LCM",
+          "x": 28,
+          "y": 44
+        },
+        {
+          "id": 205,
+          "name": "CM",
+          "slotType": "MID_RCM",
+          "x": 71,
+          "y": 44
+        },
+        {
+          "id": 204,
+          "name": "CDM",
+          "slotType": "MID_CDM",
+          "x": 50,
+          "y": 58
+        },
+        {
+          "id": 203,
+          "name": "LB",
+          "slotType": "DEF_LB",
+          "x": 10,
+          "y": 73
+        },
+        {
+          "id": 202,
+          "name": "CB",
+          "slotType": "DEF_LCB",
+          "x": 30,
+          "y": 75
+        },
+        {
+          "id": 201,
+          "name": "CB",
+          "slotType": "DEF_RCB",
+          "x": 69,
+          "y": 75
+        },
+        {
+          "id": 200,
+          "name": "RB",
+          "slotType": "DEF_RB",
+          "x": 89,
+          "y": 73
         }
       ]
     },
@@ -588,81 +588,164 @@
       "name": "4-1-2-1-2 WIDE",
       "positions": [
         {
-          "id": 33,
-          "name": "ST",
-          "slotType": "ATT_LST",
-          "x": 35,
-          "y": 12
-        },
-        {
-          "id": 32,
-          "name": "ST",
-          "slotType": "ATT_RST",
-          "x": 64,
-          "y": 12
-        },
-        {
-          "id": 31,
-          "name": "CAM",
-          "slotType": "MID_CAM",
-          "x": 50,
-          "y": 28
-        },
-        {
-          "id": 30,
-          "name": "LM",
-          "slotType": "MID_LM",
-          "x": 18,
-          "y": 38
-        },
-        {
-          "id": 29,
+          "id": 18,
           "name": "RM",
           "slotType": "MID_RM",
           "x": 82,
           "y": 38
         },
         {
-          "id": 28,
-          "name": "CDM",
-          "slotType": "MID_CDM",
+          "id": 12,
+          "name": "GK",
+          "slotType": "DEF_GK",
           "x": 50,
-          "y": 58
+          "y": 90
         },
         {
-          "id": 27,
-          "name": "LB",
-          "slotType": "DEF_LB",
-          "x": 10,
-          "y": 73
-        },
-        {
-          "id": 26,
-          "name": "CB",
-          "slotType": "DEF_LCB",
-          "x": 30,
-          "y": 75
-        },
-        {
-          "id": 25,
-          "name": "CB",
-          "slotType": "DEF_RCB",
-          "x": 69,
-          "y": 75
-        },
-        {
-          "id": 24,
+          "id": 13,
           "name": "RB",
           "slotType": "DEF_RB",
           "x": 89,
           "y": 73
         },
         {
-          "id": 23,
+          "id": 14,
+          "name": "CB",
+          "slotType": "DEF_RCB",
+          "x": 69,
+          "y": 75
+        },
+        {
+          "id": 15,
+          "name": "CB",
+          "slotType": "DEF_LCB",
+          "x": 30,
+          "y": 75
+        },
+        {
+          "id": 16,
+          "name": "LB",
+          "slotType": "DEF_LB",
+          "x": 10,
+          "y": 73
+        },
+        {
+          "id": 17,
+          "name": "CDM",
+          "slotType": "MID_CDM",
+          "x": 50,
+          "y": 58
+        },
+        {
+          "id": 19,
+          "name": "LM",
+          "slotType": "MID_LM",
+          "x": 18,
+          "y": 38
+        },
+        {
+          "id": 20,
+          "name": "CAM",
+          "slotType": "MID_CAM",
+          "x": 50,
+          "y": 28
+        },
+        {
+          "id": 21,
+          "name": "ST",
+          "slotType": "ATT_RST",
+          "x": 64,
+          "y": 12
+        },
+        {
+          "id": 22,
+          "name": "ST",
+          "slotType": "ATT_LST",
+          "x": 35,
+          "y": 12
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "4-1-3-2",
+      "positions": [
+        {
+          "id": 320,
           "name": "GK",
           "slotType": "DEF_GK",
           "x": 50,
           "y": 90
+        },
+        {
+          "id": 330,
+          "name": "ST",
+          "slotType": "ATT_LST",
+          "x": 35,
+          "y": 12
+        },
+        {
+          "id": 321,
+          "name": "RB",
+          "slotType": "DEF_RB",
+          "x": 89,
+          "y": 73
+        },
+        {
+          "id": 322,
+          "name": "CB",
+          "slotType": "DEF_RCB",
+          "x": 69,
+          "y": 75
+        },
+        {
+          "id": 323,
+          "name": "CB",
+          "slotType": "DEF_LCB",
+          "x": 30,
+          "y": 75
+        },
+        {
+          "id": 324,
+          "name": "LB",
+          "slotType": "DEF_LB",
+          "x": 10,
+          "y": 73
+        },
+        {
+          "id": 325,
+          "name": "CDM",
+          "slotType": "MID_CDM",
+          "x": 50,
+          "y": 62
+        },
+        {
+          "id": 326,
+          "name": "RM",
+          "slotType": "MID_RM",
+          "x": 84,
+          "y": 35
+        },
+        {
+          "id": 327,
+          "name": "CM",
+          "slotType": "MID_CM",
+          "x": 49,
+          "y": 34
+        },
+        {
+          "id": 328,
+          "name": "LM",
+          "slotType": "MID_LM",
+          "x": 16,
+          "y": 35
+        },
+        {
+          "id": 329,
+          "name": "ST",
+          "slotType": "ATT_RST",
+          "x": 64,
+          "y": 12
         }
       ]
     },
@@ -671,11 +754,18 @@
       "name": "4-1-4-1",
       "positions": [
         {
-          "id": 241,
-          "name": "LM",
-          "slotType": "MID_LM",
-          "x": 13,
-          "y": 38
+          "id": 240,
+          "name": "CM",
+          "slotType": "MID_LCM",
+          "x": 34,
+          "y": 40
+        },
+        {
+          "id": 242,
+          "name": "ST",
+          "slotType": "ATT_ST",
+          "x": 50,
+          "y": 14
         },
         {
           "id": 232,
@@ -734,18 +824,94 @@
           "y": 40
         },
         {
-          "id": 240,
-          "name": "CM",
-          "slotType": "MID_LCM",
-          "x": 34,
-          "y": 40
-        },
+          "id": 241,
+          "name": "LM",
+          "slotType": "MID_LM",
+          "x": 13,
+          "y": 38
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "4-2-1-3 WIDE",
+      "positions": [
         {
-          "id": 242,
+          "id": 318,
           "name": "ST",
           "slotType": "ATT_ST",
           "x": 50,
-          "y": 14
+          "y": 11
+        },
+        {
+          "id": 309,
+          "name": "GK",
+          "slotType": "DEF_GK",
+          "x": 50,
+          "y": 90
+        },
+        {
+          "id": 310,
+          "name": "RB",
+          "slotType": "DEF_RB",
+          "x": 89,
+          "y": 73
+        },
+        {
+          "id": 311,
+          "name": "CB",
+          "slotType": "DEF_RCB",
+          "x": 69,
+          "y": 75
+        },
+        {
+          "id": 312,
+          "name": "CB",
+          "slotType": "DEF_LCB",
+          "x": 30,
+          "y": 75
+        },
+        {
+          "id": 313,
+          "name": "LB",
+          "slotType": "DEF_LB",
+          "x": 10,
+          "y": 73
+        },
+        {
+          "id": 314,
+          "name": "CDM",
+          "slotType": "MID_RDM",
+          "x": 67,
+          "y": 47
+        },
+        {
+          "id": 315,
+          "name": "CDM",
+          "slotType": "MID_LDM",
+          "x": 32,
+          "y": 47
+        },
+        {
+          "id": 316,
+          "name": "CAM",
+          "slotType": "MID_CAM",
+          "x": 50,
+          "y": 39
+        },
+        {
+          "id": 317,
+          "name": "RW",
+          "slotType": "ATT_RW",
+          "x": 72,
+          "y": 16
+        },
+        {
+          "id": 319,
+          "name": "LW",
+          "slotType": "ATT_LW",
+          "x": 27,
+          "y": 16
         }
       ]
     },
@@ -754,10 +920,52 @@
       "name": "4-2-2-2",
       "positions": [
         {
-          "id": 46,
-          "name": "RB",
-          "slotType": "DEF_RB",
-          "x": 89,
+          "id": 55,
+          "name": "ST",
+          "slotType": "ATT_LST",
+          "x": 37,
+          "y": 12
+        },
+        {
+          "id": 54,
+          "name": "ST",
+          "slotType": "ATT_RST",
+          "x": 62,
+          "y": 12
+        },
+        {
+          "id": 53,
+          "name": "CAM",
+          "slotType": "MID_LAM",
+          "x": 20,
+          "y": 33
+        },
+        {
+          "id": 52,
+          "name": "CAM",
+          "slotType": "MID_RAM",
+          "x": 79,
+          "y": 33
+        },
+        {
+          "id": 51,
+          "name": "CDM",
+          "slotType": "MID_LDM",
+          "x": 40,
+          "y": 48
+        },
+        {
+          "id": 50,
+          "name": "CDM",
+          "slotType": "MID_RDM",
+          "x": 60,
+          "y": 48
+        },
+        {
+          "id": 49,
+          "name": "LB",
+          "slotType": "DEF_LB",
+          "x": 10,
           "y": 73
         },
         {
@@ -768,41 +976,6 @@
           "y": 75
         },
         {
-          "id": 49,
-          "name": "LB",
-          "slotType": "DEF_LB",
-          "x": 10,
-          "y": 73
-        },
-        {
-          "id": 50,
-          "name": "CDM",
-          "slotType": "MID_RDM",
-          "x": 60,
-          "y": 48
-        },
-        {
-          "id": 51,
-          "name": "CDM",
-          "slotType": "MID_LDM",
-          "x": 40,
-          "y": 48
-        },
-        {
-          "id": 52,
-          "name": "CAM",
-          "slotType": "MID_RAM",
-          "x": 79,
-          "y": 33
-        },
-        {
-          "id": 53,
-          "name": "CAM",
-          "slotType": "MID_LAM",
-          "x": 20,
-          "y": 33
-        },
-        {
           "id": 47,
           "name": "CB",
           "slotType": "DEF_RCB",
@@ -810,18 +983,11 @@
           "y": 75
         },
         {
-          "id": 54,
-          "name": "ST",
-          "slotType": "ATT_RST",
-          "x": 62,
-          "y": 12
-        },
-        {
-          "id": 55,
-          "name": "ST",
-          "slotType": "ATT_LST",
-          "x": 37,
-          "y": 12
+          "id": 46,
+          "name": "RB",
+          "slotType": "DEF_RB",
+          "x": 89,
+          "y": 73
         },
         {
           "id": 45,
@@ -837,11 +1003,11 @@
       "name": "4-2-3-1 NARROW",
       "positions": [
         {
-          "id": 9,
-          "name": "CAM",
-          "slotType": "MID_CAM",
+          "id": 1,
+          "name": "GK",
+          "slotType": "DEF_GK",
           "x": 50,
-          "y": 41
+          "y": 90
         },
         {
           "id": 11,
@@ -851,53 +1017,18 @@
           "y": 12
         },
         {
-          "id": 1,
-          "name": "GK",
-          "slotType": "DEF_GK",
+          "id": 10,
+          "name": "CAM",
+          "slotType": "MID_LAM",
+          "x": 33,
+          "y": 31
+        },
+        {
+          "id": 9,
+          "name": "CAM",
+          "slotType": "MID_CAM",
           "x": 50,
-          "y": 90
-        },
-        {
-          "id": 2,
-          "name": "RB",
-          "slotType": "DEF_RB",
-          "x": 89,
-          "y": 76
-        },
-        {
-          "id": 3,
-          "name": "CB",
-          "slotType": "DEF_RCB",
-          "x": 69,
-          "y": 78
-        },
-        {
-          "id": 4,
-          "name": "CB",
-          "slotType": "DEF_LCB",
-          "x": 30,
-          "y": 78
-        },
-        {
-          "id": 5,
-          "name": "LB",
-          "slotType": "DEF_LB",
-          "x": 10,
-          "y": 76
-        },
-        {
-          "id": 6,
-          "name": "CDM",
-          "slotType": "MID_RDM",
-          "x": 78,
-          "y": 52
-        },
-        {
-          "id": 7,
-          "name": "CDM",
-          "slotType": "MID_LDM",
-          "x": 22,
-          "y": 52
+          "y": 41
         },
         {
           "id": 8,
@@ -907,11 +1038,46 @@
           "y": 31
         },
         {
-          "id": 10,
-          "name": "CAM",
-          "slotType": "MID_LAM",
-          "x": 33,
-          "y": 31
+          "id": 7,
+          "name": "CDM",
+          "slotType": "MID_LDM",
+          "x": 22,
+          "y": 52
+        },
+        {
+          "id": 6,
+          "name": "CDM",
+          "slotType": "MID_RDM",
+          "x": 78,
+          "y": 52
+        },
+        {
+          "id": 5,
+          "name": "LB",
+          "slotType": "DEF_LB",
+          "x": 10,
+          "y": 76
+        },
+        {
+          "id": 4,
+          "name": "CB",
+          "slotType": "DEF_LCB",
+          "x": 30,
+          "y": 78
+        },
+        {
+          "id": 3,
+          "name": "CB",
+          "slotType": "DEF_RCB",
+          "x": 69,
+          "y": 78
+        },
+        {
+          "id": 2,
+          "name": "RB",
+          "slotType": "DEF_RB",
+          "x": 89,
+          "y": 76
         }
       ]
     },
@@ -920,41 +1086,6 @@
       "name": "4-2-3-1 WIDE",
       "positions": [
         {
-          "id": 226,
-          "name": "CDM",
-          "slotType": "MID_RDM",
-          "x": 67,
-          "y": 47
-        },
-        {
-          "id": 231,
-          "name": "ST",
-          "slotType": "ATT_ST",
-          "x": 50,
-          "y": 11
-        },
-        {
-          "id": 230,
-          "name": "CAM",
-          "slotType": "MID_CAM",
-          "x": 50,
-          "y": 39
-        },
-        {
-          "id": 229,
-          "name": "LM",
-          "slotType": "MID_LM",
-          "x": 14,
-          "y": 41
-        },
-        {
-          "id": 228,
-          "name": "RM",
-          "slotType": "MID_RM",
-          "x": 85,
-          "y": 41
-        },
-        {
           "id": 227,
           "name": "CDM",
           "slotType": "MID_LDM",
@@ -962,25 +1093,11 @@
           "y": 47
         },
         {
-          "id": 225,
-          "name": "LB",
-          "slotType": "DEF_LB",
-          "x": 10,
-          "y": 73
-        },
-        {
-          "id": 224,
-          "name": "CB",
-          "slotType": "DEF_LCB",
-          "x": 30,
-          "y": 75
-        },
-        {
-          "id": 223,
-          "name": "CB",
-          "slotType": "DEF_RCB",
-          "x": 69,
-          "y": 75
+          "id": 221,
+          "name": "GK",
+          "slotType": "DEF_GK",
+          "x": 50,
+          "y": 90
         },
         {
           "id": 222,
@@ -990,11 +1107,60 @@
           "y": 73
         },
         {
-          "id": 221,
-          "name": "GK",
-          "slotType": "DEF_GK",
+          "id": 223,
+          "name": "CB",
+          "slotType": "DEF_RCB",
+          "x": 69,
+          "y": 75
+        },
+        {
+          "id": 224,
+          "name": "CB",
+          "slotType": "DEF_LCB",
+          "x": 30,
+          "y": 75
+        },
+        {
+          "id": 225,
+          "name": "LB",
+          "slotType": "DEF_LB",
+          "x": 10,
+          "y": 73
+        },
+        {
+          "id": 226,
+          "name": "CDM",
+          "slotType": "MID_RDM",
+          "x": 67,
+          "y": 47
+        },
+        {
+          "id": 228,
+          "name": "RM",
+          "slotType": "MID_RM",
+          "x": 85,
+          "y": 41
+        },
+        {
+          "id": 229,
+          "name": "LM",
+          "slotType": "MID_LM",
+          "x": 14,
+          "y": 41
+        },
+        {
+          "id": 230,
+          "name": "CAM",
+          "slotType": "MID_CAM",
           "x": 50,
-          "y": 90
+          "y": 39
+        },
+        {
+          "id": 231,
+          "name": "ST",
+          "slotType": "ATT_ST",
+          "x": 50,
+          "y": 11
         }
       ]
     },
@@ -1003,18 +1169,11 @@
       "name": "4-2-4",
       "positions": [
         {
-          "id": 179,
-          "name": "CB",
-          "slotType": "DEF_RCB",
-          "x": 69,
-          "y": 75
-        },
-        {
-          "id": 187,
-          "name": "LW",
-          "slotType": "ATT_LW",
-          "x": 24,
-          "y": 20
+          "id": 178,
+          "name": "RB",
+          "slotType": "DEF_RB",
+          "x": 89,
+          "y": 73
         },
         {
           "id": 177,
@@ -1022,6 +1181,13 @@
           "slotType": "DEF_GK",
           "x": 50,
           "y": 90
+        },
+        {
+          "id": 187,
+          "name": "LW",
+          "slotType": "ATT_LW",
+          "x": 24,
+          "y": 20
         },
         {
           "id": 186,
@@ -1073,11 +1239,11 @@
           "y": 75
         },
         {
-          "id": 178,
-          "name": "RB",
-          "slotType": "DEF_RB",
-          "x": 89,
-          "y": 73
+          "id": 179,
+          "name": "CB",
+          "slotType": "DEF_RCB",
+          "x": 69,
+          "y": 75
         }
       ]
     },
@@ -1086,25 +1252,11 @@
       "name": "4-3-1-2",
       "positions": [
         {
-          "id": 213,
-          "name": "CB",
-          "slotType": "DEF_LCB",
-          "x": 30,
-          "y": 75
-        },
-        {
-          "id": 212,
-          "name": "CB",
-          "slotType": "DEF_RCB",
-          "x": 69,
-          "y": 75
-        },
-        {
-          "id": 210,
-          "name": "GK",
-          "slotType": "DEF_GK",
+          "id": 216,
+          "name": "CM",
+          "slotType": "MID_CM",
           "x": 50,
-          "y": 90
+          "y": 52
         },
         {
           "id": 220,
@@ -1135,11 +1287,11 @@
           "y": 46
         },
         {
-          "id": 216,
-          "name": "CM",
-          "slotType": "MID_CM",
+          "id": 210,
+          "name": "GK",
+          "slotType": "DEF_GK",
           "x": 50,
-          "y": 52
+          "y": 90
         },
         {
           "id": 215,
@@ -1154,6 +1306,20 @@
           "slotType": "DEF_LB",
           "x": 10,
           "y": 73
+        },
+        {
+          "id": 213,
+          "name": "CB",
+          "slotType": "DEF_LCB",
+          "x": 30,
+          "y": 75
+        },
+        {
+          "id": 212,
+          "name": "CB",
+          "slotType": "DEF_RCB",
+          "x": 69,
+          "y": 75
         },
         {
           "id": 211,
@@ -1176,38 +1342,24 @@
           "y": 14
         },
         {
-          "id": 35,
-          "name": "RB",
-          "slotType": "DEF_RB",
-          "x": 89,
-          "y": 73
+          "id": 43,
+          "name": "CAM",
+          "slotType": "MID_LAM",
+          "x": 31,
+          "y": 21
         },
         {
-          "id": 36,
-          "name": "CB",
-          "slotType": "DEF_RCB",
-          "x": 69,
-          "y": 75
+          "id": 42,
+          "name": "CAM",
+          "slotType": "MID_RAM",
+          "x": 66,
+          "y": 22
         },
         {
-          "id": 37,
-          "name": "CB",
-          "slotType": "DEF_LCB",
-          "x": 30,
-          "y": 75
-        },
-        {
-          "id": 38,
-          "name": "LB",
-          "slotType": "DEF_LB",
-          "x": 10,
-          "y": 73
-        },
-        {
-          "id": 39,
+          "id": 41,
           "name": "CM",
-          "slotType": "MID_RCM",
-          "x": 76,
+          "slotType": "MID_LCM",
+          "x": 22,
           "y": 48
         },
         {
@@ -1218,25 +1370,39 @@
           "y": 48
         },
         {
-          "id": 41,
+          "id": 39,
           "name": "CM",
-          "slotType": "MID_LCM",
-          "x": 22,
+          "slotType": "MID_RCM",
+          "x": 76,
           "y": 48
         },
         {
-          "id": 42,
-          "name": "RF",
-          "slotType": "ATT_RF",
-          "x": 66,
-          "y": 22
+          "id": 38,
+          "name": "LB",
+          "slotType": "DEF_LB",
+          "x": 10,
+          "y": 73
         },
         {
-          "id": 43,
-          "name": "LF",
-          "slotType": "ATT_LF",
-          "x": 31,
-          "y": 21
+          "id": 37,
+          "name": "CB",
+          "slotType": "DEF_LCB",
+          "x": 30,
+          "y": 75
+        },
+        {
+          "id": 36,
+          "name": "CB",
+          "slotType": "DEF_RCB",
+          "x": 69,
+          "y": 75
+        },
+        {
+          "id": 35,
+          "name": "RB",
+          "slotType": "DEF_RB",
+          "x": 89,
+          "y": 73
         },
         {
           "id": 34,
@@ -1252,59 +1418,17 @@
       "name": "4-3-3",
       "positions": [
         {
-          "id": 79,
-          "name": "RB",
-          "slotType": "DEF_RB",
-          "x": 89,
-          "y": 73
-        },
-        {
-          "id": 80,
-          "name": "CB",
-          "slotType": "DEF_RCB",
-          "x": 69,
-          "y": 75
-        },
-        {
-          "id": 81,
-          "name": "CB",
-          "slotType": "DEF_LCB",
-          "x": 30,
-          "y": 75
-        },
-        {
-          "id": 82,
-          "name": "LB",
-          "slotType": "DEF_LB",
-          "x": 10,
-          "y": 73
-        },
-        {
-          "id": 83,
-          "name": "CM",
-          "slotType": "MID_RCM",
-          "x": 74,
-          "y": 46
-        },
-        {
-          "id": 84,
-          "name": "CM",
-          "slotType": "MID_CM",
+          "id": 78,
+          "name": "GK",
+          "slotType": "DEF_GK",
           "x": 50,
-          "y": 46
+          "y": 90
         },
         {
-          "id": 85,
-          "name": "CM",
-          "slotType": "MID_LCM",
-          "x": 25,
-          "y": 46
-        },
-        {
-          "id": 86,
-          "name": "RW",
-          "slotType": "ATT_RW",
-          "x": 72,
+          "id": 88,
+          "name": "LW",
+          "slotType": "ATT_LW",
+          "x": 27,
           "y": 16
         },
         {
@@ -1315,18 +1439,60 @@
           "y": 13
         },
         {
-          "id": 88,
-          "name": "LW",
-          "slotType": "ATT_LW",
-          "x": 27,
+          "id": 86,
+          "name": "RW",
+          "slotType": "ATT_RW",
+          "x": 72,
           "y": 16
         },
         {
-          "id": 78,
-          "name": "GK",
-          "slotType": "DEF_GK",
+          "id": 85,
+          "name": "CM",
+          "slotType": "MID_LCM",
+          "x": 25,
+          "y": 46
+        },
+        {
+          "id": 84,
+          "name": "CM",
+          "slotType": "MID_CM",
           "x": 50,
-          "y": 90
+          "y": 46
+        },
+        {
+          "id": 83,
+          "name": "CM",
+          "slotType": "MID_RCM",
+          "x": 74,
+          "y": 46
+        },
+        {
+          "id": 82,
+          "name": "LB",
+          "slotType": "DEF_LB",
+          "x": 10,
+          "y": 73
+        },
+        {
+          "id": 81,
+          "name": "CB",
+          "slotType": "DEF_LCB",
+          "x": 30,
+          "y": 75
+        },
+        {
+          "id": 80,
+          "name": "CB",
+          "slotType": "DEF_RCB",
+          "x": 69,
+          "y": 75
+        },
+        {
+          "id": 79,
+          "name": "RB",
+          "slotType": "DEF_RB",
+          "x": 89,
+          "y": 73
         }
       ]
     },
@@ -1418,6 +1584,41 @@
       "name": "4-3-3 DEFEND",
       "positions": [
         {
+          "id": 253,
+          "name": "LW",
+          "slotType": "ATT_LW",
+          "x": 27,
+          "y": 16
+        },
+        {
+          "id": 252,
+          "name": "ST",
+          "slotType": "ATT_ST",
+          "x": 50,
+          "y": 13
+        },
+        {
+          "id": 251,
+          "name": "RW",
+          "slotType": "ATT_RW",
+          "x": 72,
+          "y": 16
+        },
+        {
+          "id": 250,
+          "name": "CM",
+          "slotType": "MID_CM",
+          "x": 50,
+          "y": 46
+        },
+        {
+          "id": 249,
+          "name": "CDM",
+          "slotType": "MID_LDM",
+          "x": 22,
+          "y": 48
+        },
+        {
           "id": 243,
           "name": "GK",
           "slotType": "DEF_GK",
@@ -1432,18 +1633,11 @@
           "y": 73
         },
         {
-          "id": 245,
-          "name": "CB",
-          "slotType": "DEF_RCB",
-          "x": 69,
-          "y": 75
-        },
-        {
-          "id": 246,
-          "name": "CB",
-          "slotType": "DEF_LCB",
-          "x": 30,
-          "y": 75
+          "id": 248,
+          "name": "CDM",
+          "slotType": "MID_RDM",
+          "x": 77,
+          "y": 48
         },
         {
           "id": 247,
@@ -1453,46 +1647,18 @@
           "y": 73
         },
         {
-          "id": 248,
-          "name": "CDM",
-          "slotType": "MID_RDM",
-          "x": 77,
-          "y": 48
+          "id": 246,
+          "name": "CB",
+          "slotType": "DEF_LCB",
+          "x": 30,
+          "y": 75
         },
         {
-          "id": 249,
-          "name": "CDM",
-          "slotType": "MID_LDM",
-          "x": 22,
-          "y": 48
-        },
-        {
-          "id": 250,
-          "name": "CM",
-          "slotType": "MID_CM",
-          "x": 50,
-          "y": 46
-        },
-        {
-          "id": 251,
-          "name": "RW",
-          "slotType": "ATT_RW",
-          "x": 72,
-          "y": 16
-        },
-        {
-          "id": 252,
-          "name": "ST",
-          "slotType": "ATT_ST",
-          "x": 50,
-          "y": 13
-        },
-        {
-          "id": 253,
-          "name": "LW",
-          "slotType": "ATT_LW",
-          "x": 27,
-          "y": 16
+          "id": 245,
+          "name": "CB",
+          "slotType": "DEF_RCB",
+          "x": 69,
+          "y": 75
         }
       ]
     },
@@ -1501,80 +1667,80 @@
       "name": "4-3-3 FALSE 9",
       "positions": [
         {
-          "id": 330,
-          "name": "LW",
-          "slotType": "ATT_LW",
-          "x": 27,
-          "y": 16
-        },
-        {
-          "id": 320,
-          "name": "GK",
-          "slotType": "DEF_GK",
-          "x": 50,
-          "y": 90
-        },
-        {
-          "id": 321,
-          "name": "RB",
-          "slotType": "DEF_RB",
-          "x": 89,
-          "y": 73
-        },
-        {
-          "id": 322,
-          "name": "CB",
-          "slotType": "DEF_RCB",
-          "x": 69,
-          "y": 75
-        },
-        {
-          "id": 323,
-          "name": "CB",
-          "slotType": "DEF_LCB",
-          "x": 30,
-          "y": 75
-        },
-        {
-          "id": 324,
-          "name": "LB",
-          "slotType": "DEF_LB",
-          "x": 10,
-          "y": 73
-        },
-        {
-          "id": 325,
-          "name": "CDM",
-          "slotType": "MID_CDM",
-          "x": 50,
-          "y": 50
-        },
-        {
-          "id": 326,
+          "id": 359,
           "name": "CM",
           "slotType": "MID_RCM",
           "x": 74,
           "y": 46
         },
         {
-          "id": 327,
+          "id": 353,
+          "name": "GK",
+          "slotType": "DEF_GK",
+          "x": 50,
+          "y": 90
+        },
+        {
+          "id": 354,
+          "name": "RB",
+          "slotType": "DEF_RB",
+          "x": 89,
+          "y": 73
+        },
+        {
+          "id": 355,
+          "name": "CB",
+          "slotType": "DEF_RCB",
+          "x": 69,
+          "y": 75
+        },
+        {
+          "id": 356,
+          "name": "CB",
+          "slotType": "DEF_LCB",
+          "x": 30,
+          "y": 75
+        },
+        {
+          "id": 357,
+          "name": "LB",
+          "slotType": "DEF_LB",
+          "x": 10,
+          "y": 73
+        },
+        {
+          "id": 358,
+          "name": "CDM",
+          "slotType": "MID_CDM",
+          "x": 50,
+          "y": 50
+        },
+        {
+          "id": 360,
           "name": "CM",
           "slotType": "MID_LCM",
           "x": 25,
           "y": 46
         },
         {
-          "id": 328,
+          "id": 361,
           "name": "CF",
           "slotType": "ATT_CF",
           "x": 50,
           "y": 20
         },
         {
-          "id": 329,
+          "id": 362,
           "name": "RW",
           "slotType": "ATT_RW",
           "x": 72,
+          "y": 16
+        },
+        {
+          "id": 363,
+          "name": "LW",
+          "slotType": "ATT_LW",
+          "x": 27,
           "y": 16
         }
       ]
@@ -1663,16 +1829,92 @@
       ]
     },
     {
-      "id": 19,
-      "name": "4-4-1-1 ATTACK",
+      "id": 18,
+      "name": "4-4-1-1",
       "positions": [
         {
-          "id": 66,
+          "id": 337,
+          "name": "CM",
+          "slotType": "MID_RCM",
+          "x": 68,
+          "y": 43
+        },
+        {
+          "id": 331,
+          "name": "GK",
+          "slotType": "DEF_GK",
+          "x": 50,
+          "y": 90
+        },
+        {
+          "id": 332,
+          "name": "RB",
+          "slotType": "DEF_RB",
+          "x": 89,
+          "y": 73
+        },
+        {
+          "id": 333,
+          "name": "CB",
+          "slotType": "DEF_RCB",
+          "x": 69,
+          "y": 75
+        },
+        {
+          "id": 334,
+          "name": "CB",
+          "slotType": "DEF_LCB",
+          "x": 30,
+          "y": 75
+        },
+        {
+          "id": 335,
+          "name": "LB",
+          "slotType": "DEF_LB",
+          "x": 10,
+          "y": 73
+        },
+        {
+          "id": 336,
+          "name": "RM",
+          "slotType": "MID_RM",
+          "x": 86,
+          "y": 41
+        },
+        {
+          "id": 338,
+          "name": "CM",
+          "slotType": "MID_LCM",
+          "x": 33,
+          "y": 43
+        },
+        {
+          "id": 339,
+          "name": "LM",
+          "slotType": "MID_LM",
+          "x": 14,
+          "y": 41
+        },
+        {
+          "id": 340,
+          "name": "CAM",
+          "slotType": "MID_CAM",
+          "x": 50,
+          "y": 39
+        },
+        {
+          "id": 341,
           "name": "ST",
           "slotType": "ATT_ST",
           "x": 50,
-          "y": 12
-        },
+          "y": 11
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "4-4-1-1 ATTACK",
+      "positions": [
         {
           "id": 65,
           "name": "CF",
@@ -1681,53 +1923,11 @@
           "y": 40
         },
         {
-          "id": 64,
-          "name": "LM",
-          "slotType": "MID_LM",
-          "x": 14,
-          "y": 41
-        },
-        {
-          "id": 63,
-          "name": "CM",
-          "slotType": "MID_LCM",
-          "x": 32,
-          "y": 46
-        },
-        {
-          "id": 62,
-          "name": "CM",
-          "slotType": "MID_RCM",
-          "x": 68,
-          "y": 46
-        },
-        {
-          "id": 61,
-          "name": "RM",
-          "slotType": "MID_RM",
-          "x": 86,
-          "y": 41
-        },
-        {
-          "id": 60,
-          "name": "LB",
-          "slotType": "DEF_LB",
-          "x": 10,
-          "y": 73
-        },
-        {
-          "id": 59,
-          "name": "CB",
-          "slotType": "DEF_LCB",
-          "x": 30,
-          "y": 75
-        },
-        {
-          "id": 58,
-          "name": "CB",
-          "slotType": "DEF_RCB",
-          "x": 69,
-          "y": 75
+          "id": 56,
+          "name": "GK",
+          "slotType": "DEF_GK",
+          "x": 50,
+          "y": 90
         },
         {
           "id": 57,
@@ -1737,11 +1937,60 @@
           "y": 73
         },
         {
-          "id": 56,
-          "name": "GK",
-          "slotType": "DEF_GK",
+          "id": 66,
+          "name": "ST",
+          "slotType": "ATT_ST",
           "x": 50,
-          "y": 90
+          "y": 12
+        },
+        {
+          "id": 58,
+          "name": "CB",
+          "slotType": "DEF_RCB",
+          "x": 69,
+          "y": 75
+        },
+        {
+          "id": 59,
+          "name": "CB",
+          "slotType": "DEF_LCB",
+          "x": 30,
+          "y": 75
+        },
+        {
+          "id": 60,
+          "name": "LB",
+          "slotType": "DEF_LB",
+          "x": 10,
+          "y": 73
+        },
+        {
+          "id": 61,
+          "name": "RM",
+          "slotType": "MID_RM",
+          "x": 86,
+          "y": 41
+        },
+        {
+          "id": 62,
+          "name": "CM",
+          "slotType": "MID_RCM",
+          "x": 68,
+          "y": 46
+        },
+        {
+          "id": 63,
+          "name": "CM",
+          "slotType": "MID_LCM",
+          "x": 32,
+          "y": 46
+        },
+        {
+          "id": 64,
+          "name": "LM",
+          "slotType": "MID_LM",
+          "x": 14,
+          "y": 41
         }
       ]
     },
@@ -1750,67 +1999,18 @@
       "name": "4-4-2 FLAT",
       "positions": [
         {
+          "id": 77,
+          "name": "ST",
+          "slotType": "ATT_LST",
+          "x": 37,
+          "y": 13
+        },
+        {
           "id": 76,
           "name": "ST",
           "slotType": "ATT_RST",
           "x": 62,
           "y": 13
-        },
-        {
-          "id": 67,
-          "name": "GK",
-          "slotType": "DEF_GK",
-          "x": 50,
-          "y": 90
-        },
-        {
-          "id": 68,
-          "name": "RB",
-          "slotType": "DEF_RB",
-          "x": 89,
-          "y": 73
-        },
-        {
-          "id": 69,
-          "name": "CB",
-          "slotType": "DEF_RCB",
-          "x": 69,
-          "y": 75
-        },
-        {
-          "id": 70,
-          "name": "CB",
-          "slotType": "DEF_LCB",
-          "x": 30,
-          "y": 75
-        },
-        {
-          "id": 71,
-          "name": "LB",
-          "slotType": "DEF_LB",
-          "x": 10,
-          "y": 73
-        },
-        {
-          "id": 72,
-          "name": "RM",
-          "slotType": "MID_RM",
-          "x": 86,
-          "y": 41
-        },
-        {
-          "id": 73,
-          "name": "CM",
-          "slotType": "MID_RCM",
-          "x": 62,
-          "y": 44
-        },
-        {
-          "id": 74,
-          "name": "CM",
-          "slotType": "MID_LCM",
-          "x": 38,
-          "y": 44
         },
         {
           "id": 75,
@@ -1820,11 +2020,60 @@
           "y": 41
         },
         {
-          "id": 77,
-          "name": "ST",
-          "slotType": "ATT_LST",
-          "x": 37,
-          "y": 13
+          "id": 74,
+          "name": "CM",
+          "slotType": "MID_LCM",
+          "x": 38,
+          "y": 44
+        },
+        {
+          "id": 73,
+          "name": "CM",
+          "slotType": "MID_RCM",
+          "x": 62,
+          "y": 44
+        },
+        {
+          "id": 72,
+          "name": "RM",
+          "slotType": "MID_RM",
+          "x": 86,
+          "y": 41
+        },
+        {
+          "id": 71,
+          "name": "LB",
+          "slotType": "DEF_LB",
+          "x": 10,
+          "y": 73
+        },
+        {
+          "id": 70,
+          "name": "CB",
+          "slotType": "DEF_LCB",
+          "x": 30,
+          "y": 75
+        },
+        {
+          "id": 69,
+          "name": "CB",
+          "slotType": "DEF_RCB",
+          "x": 69,
+          "y": 75
+        },
+        {
+          "id": 68,
+          "name": "RB",
+          "slotType": "DEF_RB",
+          "x": 89,
+          "y": 73
+        },
+        {
+          "id": 67,
+          "name": "GK",
+          "slotType": "DEF_GK",
+          "x": 50,
+          "y": 90
         }
       ]
     },
@@ -1833,11 +2082,11 @@
       "name": "4-4-2 HOLDING",
       "positions": [
         {
-          "id": 188,
-          "name": "GK",
-          "slotType": "DEF_GK",
-          "x": 50,
-          "y": 90
+          "id": 190,
+          "name": "CB",
+          "slotType": "DEF_RCB",
+          "x": 69,
+          "y": 75
         },
         {
           "id": 189,
@@ -1847,53 +2096,18 @@
           "y": 73
         },
         {
-          "id": 190,
-          "name": "CB",
-          "slotType": "DEF_RCB",
-          "x": 69,
-          "y": 75
+          "id": 188,
+          "name": "GK",
+          "slotType": "DEF_GK",
+          "x": 50,
+          "y": 90
         },
         {
-          "id": 191,
-          "name": "CB",
-          "slotType": "DEF_LCB",
-          "x": 30,
-          "y": 75
-        },
-        {
-          "id": 192,
-          "name": "LB",
-          "slotType": "DEF_LB",
-          "x": 10,
-          "y": 73
-        },
-        {
-          "id": 193,
-          "name": "CDM",
-          "slotType": "MID_RDM",
-          "x": 63,
-          "y": 48
-        },
-        {
-          "id": 194,
-          "name": "CDM",
-          "slotType": "MID_LDM",
-          "x": 36,
-          "y": 48
-        },
-        {
-          "id": 195,
-          "name": "RM",
-          "slotType": "MID_RM",
-          "x": 85,
-          "y": 38
-        },
-        {
-          "id": 196,
-          "name": "LM",
-          "slotType": "MID_LM",
-          "x": 14,
-          "y": 38
+          "id": 198,
+          "name": "ST",
+          "slotType": "ATT_LST",
+          "x": 37,
+          "y": 13
         },
         {
           "id": 197,
@@ -1903,11 +2117,46 @@
           "y": 13
         },
         {
-          "id": 198,
-          "name": "ST",
-          "slotType": "ATT_LST",
-          "x": 37,
-          "y": 13
+          "id": 196,
+          "name": "LM",
+          "slotType": "MID_LM",
+          "x": 14,
+          "y": 38
+        },
+        {
+          "id": 195,
+          "name": "RM",
+          "slotType": "MID_RM",
+          "x": 85,
+          "y": 38
+        },
+        {
+          "id": 194,
+          "name": "CDM",
+          "slotType": "MID_LDM",
+          "x": 36,
+          "y": 48
+        },
+        {
+          "id": 193,
+          "name": "CDM",
+          "slotType": "MID_RDM",
+          "x": 63,
+          "y": 48
+        },
+        {
+          "id": 192,
+          "name": "LB",
+          "slotType": "DEF_LB",
+          "x": 10,
+          "y": 73
+        },
+        {
+          "id": 191,
+          "name": "CB",
+          "slotType": "DEF_LCB",
+          "x": 30,
+          "y": 75
         }
       ]
     },
@@ -1916,77 +2165,77 @@
       "name": "4-5-1",
       "positions": [
         {
-          "id": 12,
+          "id": 23,
           "name": "GK",
           "slotType": "DEF_GK",
           "x": 50,
           "y": 90
         },
         {
-          "id": 22,
+          "id": 33,
           "name": "ST",
           "slotType": "ATT_ST",
           "x": 50,
           "y": 14
         },
         {
-          "id": 21,
+          "id": 32,
           "name": "CAM",
           "slotType": "MID_LAM",
           "x": 32,
           "y": 30
         },
         {
-          "id": 20,
+          "id": 31,
           "name": "CAM",
           "slotType": "MID_RAM",
           "x": 68,
           "y": 30
         },
         {
-          "id": 19,
+          "id": 30,
           "name": "LM",
           "slotType": "MID_LM",
           "x": 14,
           "y": 44
         },
         {
-          "id": 18,
+          "id": 29,
           "name": "CM",
           "slotType": "MID_CM",
           "x": 50,
           "y": 46
         },
         {
-          "id": 17,
+          "id": 28,
           "name": "RM",
           "slotType": "MID_RM",
           "x": 86,
           "y": 44
         },
         {
-          "id": 16,
+          "id": 27,
           "name": "LB",
           "slotType": "DEF_LB",
           "x": 10,
           "y": 73
         },
         {
-          "id": 15,
+          "id": 26,
           "name": "CB",
           "slotType": "DEF_LCB",
           "x": 30,
           "y": 75
         },
         {
-          "id": 14,
+          "id": 25,
           "name": "CB",
           "slotType": "DEF_RCB",
           "x": 69,
           "y": 75
         },
         {
-          "id": 13,
+          "id": 24,
           "name": "RB",
           "slotType": "DEF_RB",
           "x": 89,
@@ -1999,81 +2248,81 @@
       "name": "4-5-1 FLAT",
       "positions": [
         {
-          "id": 309,
+          "id": 298,
           "name": "GK",
           "slotType": "DEF_GK",
           "x": 50,
           "y": 90
         },
         {
-          "id": 319,
-          "name": "ST",
-          "slotType": "ATT_ST",
-          "x": 50,
-          "y": 13
-        },
-        {
-          "id": 318,
-          "name": "LM",
-          "slotType": "MID_LM",
-          "x": 14,
-          "y": 40
-        },
-        {
-          "id": 317,
-          "name": "CM",
-          "slotType": "MID_LCM",
-          "x": 32,
-          "y": 43
-        },
-        {
-          "id": 316,
-          "name": "CM",
-          "slotType": "MID_CM",
-          "x": 50,
-          "y": 46
-        },
-        {
-          "id": 315,
-          "name": "CM",
-          "slotType": "MID_RCM",
-          "x": 67,
-          "y": 43
-        },
-        {
-          "id": 314,
-          "name": "RM",
-          "slotType": "MID_RM",
-          "x": 85,
-          "y": 40
-        },
-        {
-          "id": 313,
-          "name": "LB",
-          "slotType": "DEF_LB",
-          "x": 10,
+          "id": 299,
+          "name": "RB",
+          "slotType": "DEF_RB",
+          "x": 89,
           "y": 73
         },
         {
-          "id": 312,
-          "name": "CB",
-          "slotType": "DEF_LCB",
-          "x": 30,
-          "y": 75
-        },
-        {
-          "id": 311,
+          "id": 300,
           "name": "CB",
           "slotType": "DEF_RCB",
           "x": 69,
           "y": 75
         },
         {
-          "id": 310,
-          "name": "RB",
-          "slotType": "DEF_RB",
-          "x": 89,
+          "id": 301,
+          "name": "CB",
+          "slotType": "DEF_LCB",
+          "x": 30,
+          "y": 75
+        },
+        {
+          "id": 302,
+          "name": "LB",
+          "slotType": "DEF_LB",
+          "x": 10,
           "y": 73
+        },
+        {
+          "id": 303,
+          "name": "RM",
+          "slotType": "MID_RM",
+          "x": 85,
+          "y": 40
+        },
+        {
+          "id": 304,
+          "name": "CM",
+          "slotType": "MID_RCM",
+          "x": 67,
+          "y": 43
+        },
+        {
+          "id": 305,
+          "name": "CM",
+          "slotType": "MID_CM",
+          "x": 50,
+          "y": 46
+        },
+        {
+          "id": 306,
+          "name": "CM",
+          "slotType": "MID_LCM",
+          "x": 32,
+          "y": 43
+        },
+        {
+          "id": 307,
+          "name": "LM",
+          "slotType": "MID_LM",
+          "x": 14,
+          "y": 40
+        },
+        {
+          "id": 308,
+          "name": "ST",
+          "slotType": "ATT_ST",
+          "x": 50,
+          "y": 13
         }
       ]
     },
@@ -2089,52 +2338,17 @@
           "y": 59
         },
         {
-          "id": 110,
-          "name": "ST",
-          "slotType": "ATT_LST",
-          "x": 35,
-          "y": 11
-        },
-        {
-          "id": 109,
-          "name": "ST",
-          "slotType": "ATT_RST",
-          "x": 64,
-          "y": 11
-        },
-        {
-          "id": 108,
-          "name": "CAM",
-          "slotType": "MID_CAM",
+          "id": 100,
+          "name": "GK",
+          "slotType": "DEF_GK",
           "x": 50,
-          "y": 28
+          "y": 90
         },
         {
-          "id": 107,
-          "name": "CM",
-          "slotType": "MID_LCM",
-          "x": 25,
-          "y": 36
-        },
-        {
-          "id": 106,
-          "name": "CM",
-          "slotType": "MID_RCM",
-          "x": 73,
-          "y": 36
-        },
-        {
-          "id": 105,
-          "name": "LWB",
-          "slotType": "DEF_LWB",
-          "x": 10,
-          "y": 59
-        },
-        {
-          "id": 104,
+          "id": 102,
           "name": "CB",
-          "slotType": "DEF_LCB",
-          "x": 30,
+          "slotType": "DEF_RCB",
+          "x": 70,
           "y": 62
         },
         {
@@ -2145,18 +2359,53 @@
           "y": 62
         },
         {
-          "id": 102,
+          "id": 104,
           "name": "CB",
-          "slotType": "DEF_RCB",
-          "x": 70,
+          "slotType": "DEF_LCB",
+          "x": 30,
           "y": 62
         },
         {
-          "id": 100,
-          "name": "GK",
-          "slotType": "DEF_GK",
+          "id": 105,
+          "name": "LWB",
+          "slotType": "DEF_LWB",
+          "x": 10,
+          "y": 59
+        },
+        {
+          "id": 106,
+          "name": "CM",
+          "slotType": "MID_RCM",
+          "x": 73,
+          "y": 36
+        },
+        {
+          "id": 107,
+          "name": "CM",
+          "slotType": "MID_LCM",
+          "x": 25,
+          "y": 36
+        },
+        {
+          "id": 108,
+          "name": "CAM",
+          "slotType": "MID_CAM",
           "x": 50,
-          "y": 90
+          "y": 28
+        },
+        {
+          "id": 109,
+          "name": "ST",
+          "slotType": "ATT_RST",
+          "x": 64,
+          "y": 11
+        },
+        {
+          "id": 110,
+          "name": "ST",
+          "slotType": "ATT_LST",
+          "x": 35,
+          "y": 11
         }
       ]
     },
@@ -2165,24 +2414,45 @@
       "name": "5-2-2-1",
       "positions": [
         {
-          "id": 89,
-          "name": "GK",
-          "slotType": "DEF_GK",
+          "id": 98,
+          "name": "ST",
+          "slotType": "ATT_ST",
           "x": 50,
-          "y": 90
+          "y": 12
         },
         {
-          "id": 90,
-          "name": "RWB",
-          "slotType": "DEF_RWB",
-          "x": 90,
+          "id": 97,
+          "name": "RW",
+          "slotType": "ATT_RW",
+          "x": 72,
+          "y": 16
+        },
+        {
+          "id": 96,
+          "name": "CM",
+          "slotType": "MID_LCM",
+          "x": 38,
+          "y": 37
+        },
+        {
+          "id": 95,
+          "name": "CM",
+          "slotType": "MID_RCM",
+          "x": 61,
+          "y": 37
+        },
+        {
+          "id": 94,
+          "name": "LWB",
+          "slotType": "DEF_LWB",
+          "x": 10,
           "y": 59
         },
         {
-          "id": 91,
+          "id": 93,
           "name": "CB",
-          "slotType": "DEF_RCB",
-          "x": 70,
+          "slotType": "DEF_LCB",
+          "x": 30,
           "y": 62
         },
         {
@@ -2193,46 +2463,25 @@
           "y": 62
         },
         {
-          "id": 93,
+          "id": 91,
           "name": "CB",
-          "slotType": "DEF_LCB",
-          "x": 30,
+          "slotType": "DEF_RCB",
+          "x": 70,
           "y": 62
         },
         {
-          "id": 94,
-          "name": "LWB",
-          "slotType": "DEF_LWB",
-          "x": 10,
+          "id": 90,
+          "name": "RWB",
+          "slotType": "DEF_RWB",
+          "x": 90,
           "y": 59
         },
         {
-          "id": 95,
-          "name": "CM",
-          "slotType": "MID_RCM",
-          "x": 61,
-          "y": 37
-        },
-        {
-          "id": 96,
-          "name": "CM",
-          "slotType": "MID_LCM",
-          "x": 38,
-          "y": 37
-        },
-        {
-          "id": 97,
-          "name": "RW",
-          "slotType": "ATT_RW",
-          "x": 72,
-          "y": 16
-        },
-        {
-          "id": 98,
-          "name": "ST",
-          "slotType": "ATT_ST",
+          "id": 89,
+          "name": "GK",
+          "slotType": "DEF_GK",
           "x": 50,
-          "y": 12
+          "y": 90
         },
         {
           "id": 99,
@@ -2248,25 +2497,11 @@
       "name": "5-3-2",
       "positions": [
         {
-          "id": 111,
-          "name": "GK",
-          "slotType": "DEF_GK",
-          "x": 50,
-          "y": 90
-        },
-        {
-          "id": 121,
-          "name": "ST",
-          "slotType": "ATT_LST",
-          "x": 35,
-          "y": 11
-        },
-        {
-          "id": 120,
-          "name": "ST",
-          "slotType": "ATT_RST",
-          "x": 64,
-          "y": 11
+          "id": 115,
+          "name": "CB",
+          "slotType": "DEF_LCB",
+          "x": 30,
+          "y": 62
         },
         {
           "id": 119,
@@ -2297,11 +2532,11 @@
           "y": 59
         },
         {
-          "id": 115,
-          "name": "CB",
-          "slotType": "DEF_LCB",
-          "x": 30,
-          "y": 62
+          "id": 120,
+          "name": "ST",
+          "slotType": "ATT_RST",
+          "x": 64,
+          "y": 11
         },
         {
           "id": 114,
@@ -2323,6 +2558,20 @@
           "slotType": "DEF_RWB",
           "x": 90,
           "y": 59
+        },
+        {
+          "id": 111,
+          "name": "GK",
+          "slotType": "DEF_GK",
+          "x": 50,
+          "y": 90
+        },
+        {
+          "id": 121,
+          "name": "ST",
+          "slotType": "ATT_LST",
+          "x": 35,
+          "y": 11
         }
       ]
     },
@@ -2338,11 +2587,11 @@
           "y": 59
         },
         {
-          "id": 122,
-          "name": "GK",
-          "slotType": "DEF_GK",
-          "x": 50,
-          "y": 90
+          "id": 132,
+          "name": "ST",
+          "slotType": "ATT_ST",
+          "x": 49,
+          "y": 13
         },
         {
           "id": 124,
@@ -2364,6 +2613,13 @@
           "slotType": "DEF_LCB",
           "x": 30,
           "y": 62
+        },
+        {
+          "id": 122,
+          "name": "GK",
+          "slotType": "DEF_GK",
+          "x": 50,
+          "y": 90
         },
         {
           "id": 127,
@@ -2399,13 +2655,89 @@
           "slotType": "MID_CAM",
           "x": 64,
           "y": 23
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "5-4-1",
+      "positions": [
+        {
+          "id": 342,
+          "name": "GK",
+          "slotType": "DEF_GK",
+          "x": 50,
+          "y": 90
         },
         {
-          "id": 132,
+          "id": 343,
+          "name": "RB",
+          "slotType": "DEF_RB",
+          "x": 89,
+          "y": 73
+        },
+        {
+          "id": 344,
+          "name": "CB",
+          "slotType": "DEF_RCB",
+          "x": 70,
+          "y": 62
+        },
+        {
+          "id": 345,
+          "name": "CB",
+          "slotType": "DEF_CB",
+          "x": 50,
+          "y": 62
+        },
+        {
+          "id": 346,
+          "name": "CB",
+          "slotType": "DEF_LCB",
+          "x": 30,
+          "y": 62
+        },
+        {
+          "id": 347,
+          "name": "LB",
+          "slotType": "DEF_LB",
+          "x": 10,
+          "y": 73
+        },
+        {
+          "id": 348,
+          "name": "RM",
+          "slotType": "MID_RM",
+          "x": 84,
+          "y": 35
+        },
+        {
+          "id": 349,
+          "name": "CM",
+          "slotType": "MID_RCM",
+          "x": 68,
+          "y": 34
+        },
+        {
+          "id": 350,
+          "name": "CM",
+          "slotType": "MID_LCM",
+          "x": 30,
+          "y": 35
+        },
+        {
+          "id": 351,
+          "name": "LM",
+          "slotType": "MID_LM",
+          "x": 14,
+          "y": 35
+        },
+        {
+          "id": 352,
           "name": "ST",
           "slotType": "ATT_ST",
-          "x": 49,
-          "y": 13
+          "x": 50,
+          "y": 11
         }
       ]
     }

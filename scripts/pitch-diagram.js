@@ -143,7 +143,8 @@ const FORMATION_WORDS = {
 function normalizeFormationName(value) {
   let text = latinize(String(value || "")).toUpperCase().replace(/_/g, " ").replace(/\s+/g, " ").trim();
   text = text.replace(/FALSO\s*9/g, "FALSE 9");
-  const tokens = text.split(" ").map(token => FORMATION_WORDS[token] || token);
+  text = text.replace(/\b(H2H|VSA|MANAGER|META)\b/g, " ");
+  const tokens = text.split(" ").map(token => FORMATION_WORDS[token] || token).filter(Boolean);
   return tokens.join(" ").trim();
 }
 
@@ -164,6 +165,13 @@ export function findFormation(value) {
     return numbered.find(item => item.name.endsWith(" WIDE") || item.name.endsWith(" HOLDING")) || numbered[0];
   }
   return formations.find(item => item.name.includes(wanted)) || null;
+}
+
+export function requireFormation(value) {
+  const found = findFormation(value);
+  if (found) return found;
+  const names = CATALOG.formations.map(item => item.name).join(", ");
+  throw new Error(`Formación no está en el catálogo RenderZ del Squadbuilder: ${value || "(vacía)"}. Disponibles: ${names}`);
 }
 
 function roleGroup(slot) {
@@ -213,8 +221,7 @@ function takeHole(holes, predicate) {
 }
 
 export function layoutPlayers(players, formation) {
-  const resolved = findFormation(formation);
-  if (!resolved) return layoutByBands(players);
+  const resolved = requireFormation(formation);
   const holes = resolved.positions
     .map(hole => ({ ...hole, used: false }))
     .sort((left, right) => left.x - right.x || left.y - right.y);
@@ -526,12 +533,14 @@ export function extractLineup(input = {}) {
   if (players.some(player => !player.name || !player.slot)) {
     throw new Error("Cada jugador del campo necesita name y slot observados; no se inventan cartas.");
   }
+  const formation = input.formation || analysis.formation || null;
+  const resolved = requireFormation(formation);
   const notes = [...(input.notes || []), ...(input.bench || []).map(item => {
     if (typeof item === "string") return item;
     return [item.name, item.note].filter(Boolean).join(" — ");
   })];
   return {
-    formation: input.formation || analysis.formation || null,
+    formation: resolved.name,
     title: input.title || null,
     notes,
     players
